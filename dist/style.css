@@ -10,8 +10,8 @@ body {
 }
 
 #game-container {
-    width: 600px;
-    height: 200px;
+    width: 900px;
+    height: 300px;
     border: 1px solid #000;
     position: relative;
     overflow: hidden; /* 隱藏超出範圍的元素 */
@@ -23,7 +23,7 @@ body {
     height: 40px;
     /* 暫時代替圖片，你可以用 background-image 替換 */
     background-color: #666;
-    /* background-image: url('dino.png'); */ /* 加上這行並提供圖片 */
+     background-image: url('dino.png');  /* 加上這行並提供圖片 */
     /* background-size: cover; */
     position: absolute;
     bottom: 20px; /* 初始位置在地面上 */
@@ -36,7 +36,7 @@ body {
 
 @keyframes jump {
     0%   { bottom: 20px; }
-    50%  { bottom: 80px; } /* 跳躍高度 */
+    50%  { bottom: 180px; } /* 跳躍高度 */
     100% { bottom: 20px; }
 }
 
